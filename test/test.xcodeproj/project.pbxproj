@@ -16,6 +16,7 @@
 		58A6F06921E4814400C9467A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6F06821E4814400C9467A /* main.m */; };
 		58A6F07321E4814400C9467A /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6F07221E4814400C9467A /* testTests.m */; };
 		58A6F07E21E4814400C9467A /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6F07D21E4814400C9467A /* testUITests.m */; };
+		58A6F08D21E482AF00C9467A /* cymview.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A6F08C21E482AF00C9467A /* cymview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		58A6F07921E4814400C9467A /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A6F07D21E4814400C9467A /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		58A6F07F21E4814400C9467A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58A6F08B21E482AF00C9467A /* cymview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cymview.h; sourceTree = "<group>"; };
+		58A6F08C21E482AF00C9467A /* cymview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cymview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				58A6F05721E4814300C9467A /* AppDelegate.m */,
 				58A6F05921E4814300C9467A /* ViewController.h */,
 				58A6F05A21E4814300C9467A /* ViewController.m */,
+				58A6F08B21E482AF00C9467A /* cymview.h */,
+				58A6F08C21E482AF00C9467A /* cymview.m */,
 				58A6F05C21E4814300C9467A /* Main.storyboard */,
 				58A6F06221E4814400C9467A /* Assets.xcassets */,
 				58A6F06421E4814400C9467A /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 				58A6F05B21E4814300C9467A /* ViewController.m in Sources */,
 				58A6F05821E4814300C9467A /* AppDelegate.m in Sources */,
 				58A6F06921E4814400C9467A /* main.m in Sources */,
+				58A6F08D21E482AF00C9467A /* cymview.m in Sources */,
 				58A6F06121E4814300C9467A /* test.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
